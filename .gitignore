@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# SimpleScalar build outputs
+simplesim-3.0/
+*.o
+*.out
+*.exe
+*.log
+*.bin
+
+# Data
+**/results/*.txt
+**/results/*.csv
+**/data/*.npy
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore SimpleScalar source and backups
+simplescalar/simplesim-3.0/
+simplescalar/simplesim-3.0.backup/

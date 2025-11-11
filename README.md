@@ -261,10 +261,10 @@ ACA/
 
 ## 👨‍💻 Contributors
 
-| Name                        | Roll No.  | Role                                        |
-| :-------------------------- | :-------- | :------------------------------------------ |
-| **Kondeti Aravind**         | 22CS02008 | Simulation, Cache Prefetching, Dashboard    |
-| **Gunupuru Sai Siddhartha** | 22CS02007 | Memory Modeling, CPU Benchmarking, Analysis |
+| Name                        | Roll No.  |
+| :-------------------------- | :-------- |
+| **Kondeti Aravind**         | 22CS02008 |
+| **Gunupuru Sai Siddhartha** | 22CS02007 |
 
 🧭 Department of Computer Science and Engineering
 **Course:** Advanced Computer Architecture Laboratory

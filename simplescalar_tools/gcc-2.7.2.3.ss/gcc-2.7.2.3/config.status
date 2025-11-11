@@ -1,0 +1,4 @@
+#!/bin/sh
+# GCC was configured as follows:
+./configure --host=i686-pc-linux --target=sslittle-na-sstrix --with-gnu-as=/home/aravind/ACA/simplescalar_tools/sslittle/bin/sslittle-na-sstrix-as --with-gnu-ld=/home/aravind/ACA/simplescalar_tools/sslittle/bin/sslittle-na-sstrix-ld --prefix=/home/aravind/ACA/simplescalar_tools/sslittle
+echo host=i686-pc-linux target=sslittle-na-sstrix build=i686-pc-linux

@@ -1,0 +1,36 @@
+Phase,Metric,Value,Comment
+Phase-1,IPC,0.9367,Baseline pipeline reference
+Phase-1,CPI,1.0676,Stable execution with minimal stalls
+Phase-2 (Baseline),IPC,0.958,Without prefetching
+Phase-2 (Next-Line),IPC,1.222,Sequential spatial locality
+Phase-2 (One-Block Lookahead),IPC,1.324,Best performance configuration
+Phase-2 (Stride),IPC,1.210,Pattern-based prefetch
+Phase-3 (Baseline Backward),Latency_Small_ns,1.1,Normal hierarchy
+Phase-3 (Baseline Backward),Latency_Medium_ns,3.0,Normal hierarchy
+Phase-3 (Baseline Backward),Latency_Large_ns,10.4,Normal hierarchy
+Phase-3 (Forward Scan),Latency_Small_ns,1.1,Direction neutral
+Phase-3 (Forward Scan),Latency_Medium_ns,3.0,Direction neutral
+Phase-3 (Forward Scan),Latency_Large_ns,8.2,Direction neutral
+Phase-3 (Concurrent),Latency_Small_ns,1.3,Contention visible
+Phase-3 (Concurrent),Latency_Medium_ns,6.0,Contention visible
+Phase-3 (Concurrent),Latency_Large_ns,20.1,Contention visible
+Phase-3 (Index Scan),Latency_Small_ns,0.3,Prefetch friendly
+Phase-3 (Index Scan),Latency_Medium_ns,0.4,Prefetch friendly
+Phase-3 (Index Scan),Latency_Large_ns,0.5,Prefetch friendly
+Phase-3 (Stride=64B),Latency_Small_ns,0.3,Cache-line aligned
+Phase-3 (Stride=64B),Latency_Medium_ns,1.0,Cache-line aligned
+Phase-3 (Stride=64B),Latency_Large_ns,2.6,Cache-line aligned
+Phase-3 (Stride=256B),Latency_Small_ns,0.3,Cache skip visible
+Phase-3 (Stride=256B),Latency_Medium_ns,2.0,Cache skip visible
+Phase-3 (Stride=256B),Latency_Large_ns,5.8,Cache skip visible
+Phase-3 (Stride=1024B),Latency_Small_ns,0.4,DRAM bound
+Phase-3 (Stride=1024B),Latency_Medium_ns,1.6,DRAM bound
+Phase-3 (Stride=1024B),Latency_Large_ns,5.3,DRAM bound
+Phase-4,L1_Latency_ns,1.142,Cache L1 latency
+Phase-4,L2_Latency_ns,1.320,Cache L2 latency
+Phase-4,L3_Latency_ns,2.952,Cache L3 latency
+Phase-4,DRAM_Latency_ns,10.092,DRAM latency
+Phase-4,L1_Energy_pJ,0.150,Low power access
+Phase-4,L2_Energy_pJ,0.173,Moderate energy
+Phase-4,L3_Energy_pJ,0.388,On-chip shared cache
+Phase-4,DRAM_Energy_pJ,1.326,Highest energy cost

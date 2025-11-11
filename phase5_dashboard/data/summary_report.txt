@@ -1,0 +1,5 @@
+Phase-4 → Phase-5 data summary
+memlat_output.txt : FOUND
+latencies_only.txt: FOUND
+power_summary.csv : FOUND
+Output directory  : /home/aravind/ACA/phase5_dashboard/data

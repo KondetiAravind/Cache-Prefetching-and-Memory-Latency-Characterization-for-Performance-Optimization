@@ -1,0 +1,5 @@
+Level,Latency(ns),Energy/Access(pJ),Total Energy(mJ)
+L1,1.143,0.15,0.0001
+L2,1.273,0.1671,0.0002
+L3,2.723,0.3573,0.0004
+DRAM,8.926,1.1714,0.0012
